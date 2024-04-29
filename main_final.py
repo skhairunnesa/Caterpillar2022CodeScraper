@@ -20,8 +20,8 @@ username_input = driver.find_element(By.ID, "login_field")
 password_input = driver.find_element(By.ID, "password")
 submit_button = driver.find_element(By.NAME, "commit")
 
-username_input.send_keys("jafferm")#give your github username
-password_input.send_keys("Hyderabad@2008")#give your github password
+username_input.send_keys("YourGithubUsername")#give your github username
+password_input.send_keys("YourGithubPassword")#give your github password
 submit_button.click()
 
 
